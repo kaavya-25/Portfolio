@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: Times New Roman, Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.about-section {
+  background-color: aqua;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: cyan ;
+  margin-bottom: 20px;
+}
+
+.web-dev-list,
+.known-languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.web-dev-list li,
+.known-languages-list li {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .col-lg-6 {
+    margin-bottom: 30px;
+  }
+}
+.about-section {
+  padding: 80px 0;
+  background-color: #666;
+
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.web-dev-section,
+.known-languages-section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.web-dev-list,
+.known-languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.web-dev-list li,
+.known-languages-list li {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .col-lg-6 {
+    margin-bottom: 30px;
+  }
+}
+img{
+  height: 190px;
+}
+.about-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.footer {
+
+  color: black;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  color: black;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+.home-section {
+  padding: 400px 0;
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 32px;
+  color: rgb(180, 7, 13);
+  font-style: oblique;
+  margin-bottom: 20px;
+  font-family: Times New Roman, Times, serif;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+.typing-cursor {
+  animation: blink-caret 0.75s step-end infinite;
+}
+.section-description {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif; /* Replace with desired font family */
+}
+
+.btn-primary {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Replace with desired font family */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.profile-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 36px;
+  }
+
+  .section-description {
+    font-size: 20px;
+  }
+}
+.skills-list{
+  padding-left: 150px;
+  font-size: 30px;
+  font-style: italic;
+  color: red;
+}
+.about-title{
+  font-size: 120px;
+}
+.projects-section{
+  padding-top: 160px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name{
+  font-family: Times New Roman, Times, serif;
+  font-style: oblique;
+  font-size: 50px;
+}
+.display-1{
+  font-style: italic;
+  font-size: xx-large;
+  color: crimson;
+}
+.display-7{
+  font-style: italic;
+  font-size: x-large;
+  color: rgb(20, 18, 18);
+}
+
+.contact_details{
+
+  font-family: 'Times New Roman', Times, serif;
+  
+}
